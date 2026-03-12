@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Wet Waves Defied</title>
+        <meta name="description" content="Test how fast you are on a jet ski" />
+
+        <meta
+            property="og:image"
+            content="https://konstiv23.github.io/lwaves-defied-hosting/waves-defied-hosting/waves-cover-1080p.jpg"
+        />
+        <meta property="og:title" content="Waves Defied" />
+        <meta
+            property="og:description"
+            content="Test how fast you are on a jet ski"
+        />
+        <meta
+            property="og:url"
+            content="https://konstiv23.github.io/lwaves-defied-hosting/"
+        />
+        <meta property="og:type" content="game" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Waves Defied" />
+        <meta
+            name="twitter:description"
+            content="Test how fast you are on a jet ski"
+        />
+        <meta
+            name="twitter:image"
+            content="https://konstiv23.github.io/lwaves-defied-hosting/waves-defied-hosting/waves-cover-1080p.jpg"
+        />
+      <script type="module" crossorigin src="./assets/index-DxxSv9fq.js"></script>
+      <link rel="stylesheet" crossorigin href="./assets/index-DpP5Uy53.css">
+    </head>
+    <body>
+        <canvas id="three-canvas"></canvas>
+
+        <div id="debug-info"></div>
+
+        <div id="timer">0</div>
+
+        <button id="restart-button">↻</button>
+
+        <dialog id="track-select-dialog">
+            <section id="track-select-content">
+                <div id="how-to-play" data-i18n="how-to-play">
+                    To outrun the ghost and earn stars, hold gas and tap "tilt
+                    forward" before jumps
+                </div>
+                <div id="tracks"></div>
+            </section>
+        </dialog>
+
+        <section id="pc-controls">
+            <div id="gas-pc-controls">
+                <div data-i18n="gas">GAS</div>
+                <div id="gas-buttons">
+                    <span class="pc-button">A</span>
+                    <span class="pc-button">D</span>
+                </div>
+            </div>
+            <div id="tilt-pc-controls">
+                <div data-i18n="tilt">TILT</div>
+                <div id="tilt-buttons">
+                    <span class="pc-button">←</span>
+                    <span class="pc-button">→</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="touch-controls">
+            <button id="left">⟨</button>
+            <button id="right">⟩</button>
+            <div id="controls-spacer"></div>
+            <div id="gas-and-reverse">
+                <button id="reverse">REVERSE</button>
+                <button id="gas">GAS</button>
+            </div>
+        </section>
+
+    </body>
+</html>
